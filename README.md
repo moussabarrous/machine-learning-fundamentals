@@ -10,7 +10,7 @@ A self-contained multivariable linear-regression implementation using NumPy. It 
 ### `linear_regression_with_scikit_learn.ipynb`
 A regression notebook using `StandardScaler` and `SGDRegressor`, with prediction checks and feature-by-feature visualizations.
 
-**Environment note:** this notebook was developed in Google Colab and uses helper utilities and `houses.txt` from the original learning environment (`lab_utils_multi.py`, `lab_utils_common.py`, and `deeplearning.mplstyle`). Those external helper files are not included in this repository, so this notebook is kept here primarily to show the scikit-learn workflow and code I wrote around it.
+**Note:** This notebook depends on additional data and helper files.
 
 ### `multivariable_linear_regression.ipynb`
 A smaller from-scratch multivariable regression experiment implementing normalization, cost, gradients, gradient descent, predictions, and visualizations.
@@ -29,4 +29,4 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-The three from-scratch notebooks are self-contained. The scikit-learn notebook still relies on the external learning-environment helper files described above.
+The three from-scratch notebooks are self-contained. The scikit-learn notebook depends on additional data and helper files.
